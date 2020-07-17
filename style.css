@@ -263,16 +263,16 @@ body {
         grid-template-columns: 1fr;
     }
     .wrapper .one {
-        padding-right: 60px;
+        padding-right: 30px;
     }
     .wrapper .two {
-        padding-right: 60px;
+        padding-right: 30px;
     }
     .wrapper .three {
-        padding-right: 60px;
+        padding-right: 30px;
     }
     .wrapper .four {
-        padding-right: 60px;
+        padding-right: 30px;
     }
     .wrapper .five img {
         width: 400px;
