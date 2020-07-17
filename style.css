@@ -169,7 +169,7 @@ body {
         margin: 0;
         position: relative;
         bottom: 70px;
-        left: 80px;
+        left: 60px;
         align-content: center;
         text-align: center;
         height: 55px;
@@ -266,13 +266,13 @@ body {
         padding-right: 30px;
     }
     .wrapper .two {
-        padding-right: 30px;
+        padding-right: 20px;
     }
     .wrapper .three {
-        padding-right: 30px;
+        padding-right: 20px;
     }
     .wrapper .four {
-        padding-right: 30px;
+        padding-right: 20px;
     }
     .wrapper .five img {
         width: 400px;
