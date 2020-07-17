@@ -262,7 +262,7 @@ body {
         display: grid;
         grid-template-columns: 1fr;
     }
-    .wrapper .one {
+        .wrapper .one {
         padding-right: 30px;
     }
     .wrapper .two {
@@ -366,6 +366,7 @@ body {
 @media only screen and (max-width:700px) {
     .coat {
     display: grid;
+    grid-template-rows: 3fr;
     grid-template-columns: 1fr;
     }
 }
