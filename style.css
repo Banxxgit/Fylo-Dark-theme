@@ -44,6 +44,8 @@ body {
         display: flex;
         flex-direction: row;
         padding: 20px 0px;
+        margin-left: 18.5px;
+        max-width: 400px;
     }
     .text {
     justify-content: space-evenly;
@@ -151,7 +153,7 @@ body {
         background-repeat: no-repeat;
         background-size: auto;
         background-position: center;
-        max-width: 500px;
+        max-width: 400px;
     }
     .main h1 {
         padding: 100px 40px 70px 40px;
@@ -280,19 +282,21 @@ body {
     }
     .wrapper .six {
         padding: 0;
+        margin: 0 30px;
+        max-width: 400px;
     }
     .wrapper .six h2 {
         font-size: 25px;
         font-weight: 700;
         max-width: max-content;
-        padding: 0 40px;
+        padding: 0 10px;
         text-align: center;
     }
     .wrapper .six p {
         max-width: max-content;
         font-size: 17px;
         font-weight: 400;
-        padding: 0 120px 0 40px;
+        padding: 0 60px 0 40px;
         line-height: 0.7cm;
     }
 }
@@ -365,9 +369,74 @@ body {
 
 @media only screen and (max-width:700px) {
     .coat {
-    display: grid;
-    grid-template-rows: 3fr;
-    grid-template-columns: 1fr;
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        padding: 50px 0;
+        margin-left: 70px;
+        gap: 1em;
+        font-family: "Raleway";
+        font-size: 13px;
+        line-height: 0.5cm;
+        max-width: 300px;
+    }
+    .coat .zero {
+        grid-row: 1/2;
+        grid-column: 1/2;
+        max-width: 50px;
+    }
+    .coat .one {
+        background: hsl(219, 30%, 18%);
+        max-width: 200px;
+        padding: 1em;
+        grid-row: 1/2;
+        grid-column: 2/3;
+        justify-self: center;
+        border-radius: 7px;
+    }
+    .coat .one span img {
+        max-height: 3em;
+        width: 3em;
+        border-radius: 50%;
+    }
+    .coat .one span p {
+        display: inline-block;
+    }
+    .coat .two {
+        background: hsl(219, 30%, 18%);
+        max-width: 200px;
+        padding: 1em;
+        grid-row: 2/3;
+        grid-column: 2/3;
+        justify-self: center;
+        border-radius: 7px;
+    }
+    .coat .two span img {
+        max-height: 3em;
+        width: 3em;
+        border-radius: 50%;
+    }
+    .coat .two span p {
+        display: inline-block;
+    }
+    .coat .three {
+        background: hsl(219, 30%, 18%);
+        max-width: 200px;
+        padding: 1em;
+        justify-items: center;
+        grid-row: 3/4;
+        grid-column: 2/3;
+        justify-self: center;
+        border-radius: 7px;
+    }
+    
+    .coat .three span img {
+        max-height: 3em;
+        width: 3em;
+        border-radius: 50%;
+    }
+    .coat .three span p {
+        display: inline-block;
     }
 }
 
@@ -535,6 +604,8 @@ body {
         grid-template-columns: 1fr;
         padding: 0;
         margin: 0;
+        max-width: 500px;
+        outline: 1px solid orangered;
     }
     .mood {
         grid-row: 1/2;
@@ -543,9 +614,10 @@ body {
         text-align: center;
         border-radius: 7px;
         font-family: "Raleway";
-        margin: 0 50px;
         box-shadow: 0 4px 12px 0 #ddeaf0;
         padding: 0;
+        max-width: 300px;
+        justify-self: center;
     }
     .mood form {
         padding-bottom: 1.5em;
@@ -566,13 +638,13 @@ body {
         color: #fff;
         justify-content: center;
         height: 50px;
-        width: 350px;
+        width: 250px;
         border-radius: 30px;
         font-size: 18px;
     }
     .email {
         height: 50px;
-        width: 350px;
+        width: 250px;
         border: none;
         border-radius: 50px;
         margin-bottom: 30px;
