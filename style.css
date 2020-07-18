@@ -45,7 +45,7 @@ body {
         flex-direction: row;
         padding: 20px 0px;
         margin-left: 18.5px;
-        max-width: 400px;
+        max-width: 700px;
     }
     .text {
     justify-content: space-evenly;
@@ -135,6 +135,7 @@ body {
 @media only screen and (max-width:700px) {
     .welcome-section .span {
         padding: 0;
+        max-width: 700px;
     }
     .block {
         flex-direction: column;
@@ -153,7 +154,7 @@ body {
         background-repeat: no-repeat;
         background-size: auto;
         background-position: center;
-        max-width: 400px;
+        max-width: 700px;
     }
     .main h1 {
         padding: 100px 40px 70px 40px;
@@ -171,7 +172,7 @@ body {
         margin: 0;
         position: relative;
         bottom: 70px;
-        left: 40px;
+        left: 70px;
         align-content: center;
         text-align: center;
         height: 55px;
@@ -263,6 +264,8 @@ body {
     .wrapper {
         display: grid;
         grid-template-columns: 1fr;
+        max-width: 700px;
+
     }
         .wrapper .one {
         padding-right: 30px;
@@ -378,7 +381,7 @@ body {
         font-family: "Raleway";
         font-size: 13px;
         line-height: 0.5cm;
-        max-width: 300px;
+        max-width: 700px;
     }
     .coat .zero {
         grid-row: 1/2;
@@ -391,7 +394,7 @@ body {
         padding: 1em;
         grid-row: 1/2;
         grid-column: 2/3;
-        justify-self: center;
+        justify-self: flex-start;
         border-radius: 7px;
     }
     .coat .one span img {
@@ -408,7 +411,7 @@ body {
         padding: 1em;
         grid-row: 2/3;
         grid-column: 2/3;
-        justify-self: center;
+        justify-self: flex-start;
         border-radius: 7px;
     }
     .coat .two span img {
@@ -426,7 +429,7 @@ body {
         justify-items: center;
         grid-row: 3/4;
         grid-column: 2/3;
-        justify-self: center;
+        justify-self: flex-start;
         border-radius: 7px;
     }
     
@@ -604,7 +607,7 @@ body {
         grid-template-columns: 1fr;
         padding: 0;
         margin: 0;
-        max-width: 500px;
+        max-width: 700px;
     }
     .mood {
         grid-row: 1/2;
