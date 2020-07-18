@@ -171,7 +171,7 @@ body {
         margin: 0;
         position: relative;
         bottom: 70px;
-        left: 60px;
+        left: 40px;
         align-content: center;
         text-align: center;
         height: 55px;
@@ -605,7 +605,6 @@ body {
         padding: 0;
         margin: 0;
         max-width: 500px;
-        outline: 1px solid orangered;
     }
     .mood {
         grid-row: 1/2;
