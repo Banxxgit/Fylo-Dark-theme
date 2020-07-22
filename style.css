@@ -89,9 +89,7 @@ body {
     grid-row: 1/2;
     grid-column: 3/8;
 }
-.intro {
-    padding: 20px 0;
-}
+
 .span {
     grid-row: 2/3;
     grid-column: 1/-1;
@@ -144,10 +142,9 @@ body {
     .block .new {
         justify-self: center;
         grid-row: 1/2;
-        grid-column: 3/8;
+        grid-column: 3/9;
     }
     .block .new img {
-        margin: 0 0 0 40px;
     }
     .intro {
         height: 300px;
@@ -186,7 +183,7 @@ body {
         height: 55px;
         width: 200px;
         border-radius: 30px;
-        margin: 40px 0 0 110px;
+        margin: 40px 0 0 120px;
     }
 }
 
