@@ -40,7 +40,7 @@ body {
     cursor: pointer;
     font-family: "Raleway";
 }
-@media only screen and (max-width:700px) {
+@media (min-width: 320px) and (max-width: 480px) {
     .nav {
         display: flex;
         flex-direction: row;
@@ -135,7 +135,7 @@ body {
     position: relative;
     bottom: 100px;
 }
-@media only screen and (max-width:700px) {
+@media (min-width: 320px) and (max-width: 480px) {
     .welcome-section .span {
         padding: 0;
     }
@@ -268,7 +268,7 @@ body {
 .wrapper .six p a {
     color: hsl(176, 68%, 64%);
 }
-@media only screen and (max-width:700px) {
+@media (min-width: 320px) and (max-width: 480px) {
     .wrapper {
         display: grid;
         grid-template-columns: 1fr;
@@ -378,7 +378,7 @@ body {
     grid-column: 1/2;
 }
 
-@media only screen and (max-width:700px) {
+@media (min-width: 320px) and (max-width: 480px) {
     .coat {
         display: grid;
         grid-template-columns: 50px 1fr;
@@ -608,7 +608,7 @@ body {
 .more ul li {
     margin-bottom: 10px;
 }
-@media only screen and (max-width:700px) {
+@media (min-width: 320px) and (max-width: 480px) {
     .container {
         display: grid;
         grid-template-rows: 1fr 2fr;
