@@ -41,11 +41,10 @@ body {
     font-family: "Raleway";
 }
 @media (min-width: 320px) and (max-width: 480px) {
-    * {
-        max-width: 400px;
-    }
+    
     body {
-        max-width: 400px;
+        width: 100%;
+        overflow-x: hidden;
     }
     .nav {
         display: flex;
