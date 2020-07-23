@@ -65,7 +65,7 @@ body {
     }
     .text ul li {
     display: inline-block;
-    padding: 0;
+    padding: 0 5px;
     cursor: pointer;
     font-family: "Raleway";
     align-self: center;
@@ -157,8 +157,8 @@ body {
     .block .new img {
     }
     .intro {
-        height: 200px;
-        width: 300px;
+        height: 300px;
+        width: 350px;
         align-self: flex-start;
         justify-self: center;
         padding: 0;
@@ -173,17 +173,16 @@ body {
         background-repeat: no-repeat;
         background-size: auto;
         background-position: center;
-        max-width: auto;
     }
     .main h1 {
-        padding: 100px 40px 70px 40px;
+        padding: 70px 20px 70px 20px;
         font-size: 30px;
         font-weight: bold;
         line-height: 1.1cm;
         margin: 0;
     }
     .main p {
-        padding: 0 30px;
+        padding: 0;
         margin: 0;
     }
     .btn1 {
@@ -285,20 +284,20 @@ body {
         max-width: 700px;
 
     }
-        .wrapper .one {
-        padding-right: 30px;
+    .wrapper .one {
+        padding-right: 10px;
     }
     .wrapper .two {
         padding-right: 10px;
     }
     .wrapper .three {
-        padding-right: 10px;
+        padding-right: 7px;
     }
     .wrapper .four {
         padding-right: 20px;
     }
     .wrapper .five img {
-        width: 400px;
+        width: 350px;
         height: 300px;
     }
     .wrapper .six {
@@ -326,7 +325,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3em;
-    padding: 120px;
+    padding: 3em;
     grid-auto-rows: minmax(100px, auto);
     font-family: "Raleway";
     font-size: 13px;
@@ -394,7 +393,6 @@ body {
         grid-template-columns: 50px 1fr;
         grid-template-rows: repeat(3, 1fr);
         padding: 50px 0;
-        margin-left: 70px;
         gap: 1em;
         font-family: "Raleway";
         font-size: 13px;
@@ -634,7 +632,7 @@ body {
         border-radius: 7px;
         font-family: "Raleway";
         box-shadow: 0 4px 12px 0 #ddeaf0;
-        padding: 0;
+        margin-top: 50px;
         max-width: 300px;
         justify-self: center;
     }
