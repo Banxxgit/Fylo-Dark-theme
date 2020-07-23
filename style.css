@@ -286,14 +286,24 @@ body {
     .wrapper .one {
         padding-right: 10px;
     }
+    .wrapper .one h2 {
+        overflow-y: hidden;
+    }
     .wrapper .two {
         padding-right: 10px;
     }
+    .wrapper .two h2 {
+        overflow-y: hidden;
+    }
     .wrapper .three {
         padding-right: 7px;
+    }.wrapper .three h2 {
+        overflow-y: hidden;
     }
     .wrapper .four {
         padding-right: 20px;
+    }.wrapper .four h2 {
+        overflow-y: hidden;
     }
     .wrapper .five img {
         width: 350px;
