@@ -41,8 +41,11 @@ body {
     font-family: "Raleway";
 }
 @media (min-width: 320px) and (max-width: 480px) {
+    * {
+        overflow-x: hidden;
+    }
     
-    html body {
+    body {
         width: 100%;
         overflow-x: hidden;
     }
